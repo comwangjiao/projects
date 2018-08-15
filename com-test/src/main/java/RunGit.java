@@ -5,9 +5,13 @@
  */
 public class RunGit {
     public static void main(String[] args) {
-        say();
+        String str = say();
+        System.out.println(str);
     }
     public static String say(){
         return "hello git";
+    }
+    public static String call(){
+        return "hello emerson";
     }
 }
